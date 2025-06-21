@@ -26,10 +26,10 @@
     <h1>MENU</h1>
 
     <!-- Zdjęcie 1 -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Obrazek 1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="zdjecie1">
 
     <!-- Zdjęcie 2 -->
-    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Obrazek 2">
+    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="zdjecie2">
 
 </body>
 </html>
