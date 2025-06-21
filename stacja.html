@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENU - responsywne</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 600px;
+    }
+  </style>
 </head>
 <body>
-
-    <h1>MENU</h1>
-
-    <!-- Zdjęcie 1 -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="zdjecie1">
-
-    <!-- Zdjęcie 2 -->
-    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="zdjecie2">
-
+  <div class="image-container">
+    <img src="zdjecie1.jpg" alt="Obrazek 1">
+    <img src="zdjecie2.jpg" alt="Obrazek 2">
+  </div>
 </body>
 </html>
